@@ -12,20 +12,24 @@
 	<dict>
 		<key>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</key>
 		<string>gitlab.com:xiaobaiso/myios.git</string>
+		<key>A92AF9BA263D61A6BB3C8F5C9CA79BBB7043C0A4</key>
+		<string>https://github.com/xiaobaiso/-.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>拉钩一下/拉钩一下.xcodeproj</string>
+	<string>拉钩一下.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</key>
 		<string>../../..</string>
+		<key>A92AF9BA263D61A6BB3C8F5C9CA79BBB7043C0A4</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>gitlab.com:xiaobaiso/myios.git</string>
+	<string>https://github.com/xiaobaiso/-.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</string>
+	<string>A92AF9BA263D61A6BB3C8F5C9CA79BBB7043C0A4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</string>
 			<key>IDESourceControlWCCName</key>
-			<string>workspace</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A92AF9BA263D61A6BB3C8F5C9CA79BBB7043C0A4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E6%8B%89%E9%92%A9%E4%B8%80%E4%B8%8B</string>
 		</dict>
 	</array>
 </dict>

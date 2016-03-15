@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031027841C9021A500368917 /* XBCodeLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031027831C9021A500368917 /* XBCodeLoginController.m */; };
+		031EF3791C9153F700946311 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EF3711C9153F700946311 /* ALView+PureLayout.m */; };
+		031EF37A1C9153F700946311 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EF3731C9153F700946311 /* NSArray+PureLayout.m */; };
+		031EF37B1C9153F700946311 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EF3751C9153F700946311 /* NSLayoutConstraint+PureLayout.m */; };
+		031EF37E1C9158C900946311 /* XBCodeLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EF37D1C9158C900946311 /* XBCodeLogin.m */; };
 		03287F7B1C8ECFB400C5B9E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03287F7A1C8ECFB400C5B9E8 /* main.m */; };
 		03287F7E1C8ECFB400C5B9E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03287F7D1C8ECFB400C5B9E8 /* AppDelegate.m */; };
 		03287F811C8ECFB400C5B9E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03287F801C8ECFB400C5B9E8 /* ViewController.m */; };
@@ -28,6 +33,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031027821C9021A500368917 /* XBCodeLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCodeLoginController.h; sourceTree = "<group>"; };
+		031027831C9021A500368917 /* XBCodeLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCodeLoginController.m; sourceTree = "<group>"; };
+		031EF3701C9153F700946311 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		031EF3711C9153F700946311 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		031EF3721C9153F700946311 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		031EF3731C9153F700946311 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		031EF3741C9153F700946311 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		031EF3751C9153F700946311 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		031EF3761C9153F700946311 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		031EF3771C9153F700946311 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		031EF3781C9153F700946311 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		031EF37C1C9158C900946311 /* XBCodeLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCodeLogin.h; sourceTree = "<group>"; };
+		031EF37D1C9158C900946311 /* XBCodeLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCodeLogin.m; sourceTree = "<group>"; };
 		03287F751C8ECFB400C5B9E8 /* 拉钩一下.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "拉钩一下.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03287F791C8ECFB400C5B9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03287F7A1C8ECFB400C5B9E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031EF36F1C9153F700946311 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				031EF3701C9153F700946311 /* ALView+PureLayout.h */,
+				031EF3711C9153F700946311 /* ALView+PureLayout.m */,
+				031EF3721C9153F700946311 /* NSArray+PureLayout.h */,
+				031EF3731C9153F700946311 /* NSArray+PureLayout.m */,
+				031EF3741C9153F700946311 /* NSLayoutConstraint+PureLayout.h */,
+				031EF3751C9153F700946311 /* NSLayoutConstraint+PureLayout.m */,
+				031EF3761C9153F700946311 /* PureLayout+Internal.h */,
+				031EF3771C9153F700946311 /* PureLayout.h */,
+				031EF3781C9153F700946311 /* PureLayoutDefines.h */,
+			);
+			name = PureLayout;
+			path = "../../../Downloads/PureLayout-master/PureLayout/PureLayout";
+			sourceTree = "<group>";
+		};
 		03287F6C1C8ECFB400C5B9E8 = {
 			isa = PBXGroup;
 			children = (
@@ -84,13 +119,18 @@
 		03287F771C8ECFB400C5B9E8 /* 拉钩一下 */ = {
 			isa = PBXGroup;
 			children = (
-				03287F9E1C8ED1BD00C5B9E8 /* XBLoginController.h */,
-				03287F9F1C8ED1BD00C5B9E8 /* XBLoginController.m */,
+				031EF36F1C9153F700946311 /* PureLayout */,
+				031027821C9021A500368917 /* XBCodeLoginController.h */,
+				031027831C9021A500368917 /* XBCodeLoginController.m */,
+				031EF37C1C9158C900946311 /* XBCodeLogin.h */,
+				031EF37D1C9158C900946311 /* XBCodeLogin.m */,
 				03287F7C1C8ECFB400C5B9E8 /* AppDelegate.h */,
 				03287F7D1C8ECFB400C5B9E8 /* AppDelegate.m */,
 				03287F7F1C8ECFB400C5B9E8 /* ViewController.h */,
 				03287F801C8ECFB400C5B9E8 /* ViewController.m */,
 				03287F821C8ECFB400C5B9E8 /* Main.storyboard */,
+				03287F9E1C8ED1BD00C5B9E8 /* XBLoginController.h */,
+				03287F9F1C8ED1BD00C5B9E8 /* XBLoginController.m */,
 				03287F851C8ECFB400C5B9E8 /* Images.xcassets */,
 				03287F871C8ECFB400C5B9E8 /* LaunchScreen.xib */,
 				03287F781C8ECFB400C5B9E8 /* Supporting Files */,
@@ -225,10 +265,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031EF37E1C9158C900946311 /* XBCodeLogin.m in Sources */,
 				03287F811C8ECFB400C5B9E8 /* ViewController.m in Sources */,
+				031EF3791C9153F700946311 /* ALView+PureLayout.m in Sources */,
 				03287FA01C8ED1BD00C5B9E8 /* XBLoginController.m in Sources */,
+				031EF37B1C9153F700946311 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				031EF37A1C9153F700946311 /* NSArray+PureLayout.m in Sources */,
 				03287F7E1C8ECFB400C5B9E8 /* AppDelegate.m in Sources */,
 				03287F7B1C8ECFB400C5B9E8 /* main.m in Sources */,
+				031027841C9021A500368917 /* XBCodeLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +468,7 @@
 				03287F9A1C8ECFB400C5B9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03287F9B1C8ECFB400C5B9E8 /* Build configuration list for PBXNativeTarget "拉钩一下Tests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +477,7 @@
 				03287F9D1C8ECFB400C5B9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

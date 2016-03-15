@@ -59,6 +59,7 @@
                                     <constraint firstAttribute="height" secondItem="4bM-84-1nI" secondAttribute="height" id="g8z-P6-h6n"/>
                                     <constraint firstItem="4bM-84-1nI" firstAttribute="leading" secondItem="W3R-e4-Nkh" secondAttribute="leading" id="h2F-JI-8pL"/>
                                     <constraint firstAttribute="height" constant="35" id="phv-8d-0Tc"/>
+                                    <constraint firstAttribute="width" constant="335" id="u74-SJ-z47"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nd7-Wt-EoG" userLabel="inputPassView">
@@ -90,6 +91,9 @@
                                     <color key="titleColor" red="1" green="0.93801377457906521" blue="0.87090751024488555" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="duR-Tk-esD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="忘记密码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l71-J5-9G1">
                                 <rect key="frame" x="20" y="386" width="200" height="21"/>
@@ -185,7 +189,11 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="inputNameView" destination="W3R-e4-Nkh" id="4T9-Pf-IlS"/>
+                        <outlet property="inputField" destination="RzA-CC-1b5" id="jbS-lM-2xk"/>
+                        <outlet property="inputNameView" destination="W3R-e4-Nkh" id="vkW-pb-rdx"/>
+                        <outlet property="inputPass" destination="7OY-1e-rMf" id="yMt-hZ-mGu"/>
+                        <outlet property="inputPassView" destination="Nd7-Wt-EoG" id="Jzj-EG-baX"/>
+                        <outlet property="loginButton" destination="hnJ-ZF-dE4" id="cxF-s9-s7g"/>
                         <outlet property="logo" destination="MSx-Ee-sdL" id="7EE-pL-nIm"/>
                         <outlet property="logoHeight" destination="6Y2-HH-EoK" id="zDi-IL-hEx"/>
                         <outlet property="logoWidth" destination="f1g-D1-WTZ" id="6PW-Q0-KRA"/>

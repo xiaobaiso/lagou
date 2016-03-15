@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XBCodeLoginController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    //注释以下代码可以看storyBoard实现的约束
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    
+    
+    XBCodeLoginController *controller = [[XBCodeLoginController alloc] init];
+    
+    
+    
+    self.window.rootViewController = controller;
+    
+
+    
+    
+    
     return YES;
 }
 

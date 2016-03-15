@@ -8,7 +8,7 @@
 
 #import "XBLoginController.h"
 
-@interface XBLoginController ()
+@interface XBLoginController ()  <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *logo;
 //@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leftLogoConstraint;
 //@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topLogoConstraint;
@@ -16,8 +16,15 @@
 //@property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomLogoConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *logoHeight;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *logoWidth;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
 @property (weak, nonatomic) IBOutlet UIView *inputNameView;
 @property (weak, nonatomic) IBOutlet UIView *inputPassView;
+
+
+@property (weak, nonatomic) IBOutlet UITextField *inputField;
+@property (weak, nonatomic) IBOutlet UITextField *inputPass;
 
 
 @end
@@ -28,7 +35,34 @@
 #define LogoScreenWidth   [UIScreen mainScreen].bounds.size.width
 #define LogoScreenHeight  [UIScreen mainScreen].bounds.size.height
 
+- (IBAction)loginButton:(id)sender {
+    [UIView animateWithDuration:1.0f animations:^{
+        self.logo.bounds = CGRectMake(0, 0, 0, 0);
+        
+        CGRect name = self.inputNameView.frame;
+        name.origin.y -= 80;
+        self.inputNameView.frame = name;
+        
+        CGRect pass = self.inputPassView.frame;
+        pass.origin.y -= 80;
+        self.inputPassView.frame = pass;
+        
+        CGRect login = self.loginButton.frame;
+        login.origin.y -= 80;
+        self.loginButton.frame = login;
+        
+        
+        
+    } completion:^(BOOL finished) {
+        
+    }];
+}
 #define LogoScreenMargin 20
+
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField{
+    
+}
 
 
 - (void)viewDidLoad {
@@ -41,18 +75,20 @@
     self.logoHeight.constant = self.logoWidth.constant * 1.68;
     
     
+    NSLog(@"!!!!!!!  %f  %f",self.logo.frame.size.width,self.logo.frame.size.height);
+    //self.inputField.delegate = self;
     
-    
-//    UIView *viewLine = [[UIView alloc] initWithFrame:CGRectMake(0, 236, self.view.frame.size.width, 1/[[UIScreen mainScreen] scale])];
-//    viewLine.backgroundColor = [UIColor redColor];
-//    [self.view addSubview:viewLine];
-//    
-    
-    
+   
 }
 
 
-
+-(void)logoAnimal{
+    [UIView animateWithDuration:1.0f animations:^{
+        self.logo.bounds = CGRectMake(0, 0, 0, 0);
+    } completion:^(BOOL finished) {
+        
+    }];
+}
 
 
 
